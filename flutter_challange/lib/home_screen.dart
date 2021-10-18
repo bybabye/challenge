@@ -105,11 +105,11 @@ class HomeScreen extends StatelessWidget {
             ),
           ),
           Positioned(
-            top: size.height / 2 - 10,
+            top: size.height * 0.49,
             left: size.width / 7,
             child: Container(
-              height: size.height / 4 - 20,
-              width: size.width / 3 + 20,
+              height: size.height * 0.22,
+              width: size.width *0.36,
               color: Colors.black45,
               child: const Center(
                 child: Text("Ô xếp chồng",
